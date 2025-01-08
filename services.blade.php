@@ -11,6 +11,7 @@
 <body>
     <div>
         <h1>Our Services :</h1>
+        <!-- Services headline -->
         <ul>
             <li>Fiber-optic internet</li>
             <li>Mobile Internet</li>
@@ -19,9 +20,9 @@
             <li>Phishing attack simulation training</li>
             <li>Network Protection Solutions</li>
         </ul>
+        <!-- Services list -->
     </div>
-
-
+    <!-- Company services -->
 </body>
 
 </html>
