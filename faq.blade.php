@@ -15,31 +15,23 @@
             width: 300px;
             cursor: pointer;
             transition: 0.3s;
-
         }
-
+        
         .question_button:hover {
             color: lightblue;
             font-size 12px;
-
         }
     </style>
-
-
 </head>
 
 <body>
-
-
+    
     <div>
-
         <h1>FAQ</h1>
-
 
         <!-- FAQ Headline -->
 
         <div>
-
             <button class="question_button" onclick="faq(this)">{{ $faq['question'] }}</button>
             <div class="answer" style="display: none;">
                 {{ $faq['answer'] }}
@@ -62,7 +54,6 @@
             <div class="answer" style="display: none;">
                 {{ $faq['answer'] }}
             </div><br>
-
         </div>
 
         <!-- Questions and answers -->
@@ -80,8 +71,5 @@
         </script>
 
         <!-- Toggle function -->
-
-
 </body>
-
 </html>
