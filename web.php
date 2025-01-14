@@ -10,3 +10,12 @@ Route::get('/', function () {
 Route::get('/services', function() {
     return view('services');
 });
+
+Route::get('/faq', function (){
+
+    $faq = [
+        'question' => "Lorem ipsum?",
+        'answer' => "Yes, Lorem ipsum!",
+    ];
+    return view('faq', ['faq' => $faq]);
+});
